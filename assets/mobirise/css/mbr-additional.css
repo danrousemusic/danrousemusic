@@ -1131,61 +1131,51 @@ section.lazy-placeholder:after {
   color: #ffffff;
   text-align: left;
 }
-.cid-rGUasWzZG0 {
+.cid-rGUcOiTkz3 {
   padding-top: 90px;
-  padding-bottom: 15px;
+  padding-bottom: 90px;
   background-image: url("../../../assets/images/back2-1-1024x1024.png");
 }
-.cid-rGUasWzZG0 .mbr-text,
-.cid-rGUasWzZG0 .mbr-section-btn {
-  color: #767676;
-  text-align: left;
+.cid-rGUcOiTkz3 .media-container-row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
 }
-.cid-rGUasWzZG0 H2 {
+@media (min-width: 992px) {
+  .cid-rGUcOiTkz3 .mbr-figure {
+    padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rGUcOiTkz3 .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rGUcOiTkz3 .mbr-text {
+    text-align: center;
+  }
+}
+.cid-rGUcOiTkz3 .mbr-text,
+.cid-rGUcOiTkz3 .mbr-section-btn {
+  color: #767676;
+}
+.cid-rGUcOiTkz3 H1 {
   text-align: center;
   color: #276ab4;
 }
-.cid-rGMQxnRRUo {
-  padding-top: 30px;
-  padding-bottom: 15px;
+.cid-rGUdWFYQJp {
+  padding-top: 60px;
+  padding-bottom: 45px;
   background-image: url("../../../assets/images/back2-1-1024x1024.png");
 }
-.cid-rGMQxnRRUo [class^="socicon-"]:before,
-.cid-rGMQxnRRUo [class*=" socicon-"]:before {
-  line-height: 44px;
+.cid-rGUdWFYQJp .mbr-iconfont-social {
+  font-size: 32px;
+  color: #276ab4;
 }
-.cid-rGMQxnRRUo .btn-social {
-  font-size: 20px;
-  border-radius: 50%;
-  padding: 0;
-  width: 44px;
-  height: 44px;
-  line-height: 44px;
-  text-align: center;
-  position: relative;
-  color: #232323;
-  cursor: pointer;
-  border-color: #767676;
-}
-.cid-rGMQxnRRUo .btn-social i {
-  top: 0;
-  line-height: 44px;
-  width: 44px;
-}
-.cid-rGMQxnRRUo .btn-social:hover {
-  color: #fff;
-  background: #767676;
-}
-.cid-rGMQxnRRUo .btn-social:hover i.socicon {
-  color: #ffffff !important;
-}
-.cid-rGMQxnRRUo .btn-social + .btn {
-  margin-left: .1rem;
-}
-@media (max-width: 767px) {
-  .cid-rGMQxnRRUo .btn {
-    font-size: 20px !important;
-  }
+.cid-rGUdWFYQJp .social-list a:focus {
+  text-decoration: none;
 }
 .cid-rGCIiomVya {
   padding-top: 90px;
